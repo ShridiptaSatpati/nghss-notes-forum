@@ -98,12 +98,12 @@ export default function Home() {
           {/* <h1 className="text-2xl text-bold">Notes.</h1> */}
           <iframe
             src="https://app.box.com/embed/s/68rqz10li1egz4cxeh03k994rd80xljg?expandSidebars=true&sortColumn=name"
-            width="500"
-            height="400"
+            width="100%"
+            height="600"
             frameborder="0"
-            allowfullscreen
-            webkitallowfullscreen
-            msallowfullscreen
+            allowfullscreen = "true"
+            webkitallowfullscreen = "true"
+            msallowfullscreen = "true"
           ></iframe>
 
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">

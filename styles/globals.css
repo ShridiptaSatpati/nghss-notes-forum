@@ -75,3 +75,10 @@ body {
   background: inherit;
   border-radius: inherit;
 }
+
+
+iframe {
+    /* width: 960px; */
+    overflow: hidden;
+    border: none;
+}
